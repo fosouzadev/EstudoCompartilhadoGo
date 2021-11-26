@@ -2,7 +2,17 @@ package main
 
 import "fmt"
 
-var numPkg int = 53453
+var nome string = "fulano"
+
+func main() {
+	nome += " da silva"
+
+	var nome string
+
+	fmt.Println(nome)
+}
+
+/* var numPkg int = 53453
 var floatPkg float32 = 4324324.044
 var choveuPkg bool = false
 var nomePkg string = "fulano"
@@ -23,4 +33,4 @@ func main() {
 	fmt.Printf("\tVariável float  : Tipo %T	Valor %v \n", flo, flo)
 	fmt.Printf("\tVariável choveu : Tipo %T	Valor %v \n", choveu, choveu)
 	fmt.Printf("\tVariável nome   : Tipo %T	Valor %v \n", nome, nome)
-}
+} */
